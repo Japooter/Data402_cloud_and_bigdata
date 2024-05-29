@@ -42,7 +42,7 @@ As previously written, the cloud service chosen can be cheaper, so long as the r
 ### Market Share
 Within a certain market, a business' market share is the amount of revenue made by that business when compared to the revenue made in the entire market (including this business and its competitors). In terms of the cloud computing market, Amazon is in the lead with Amazon Web Services as of quarter 1 2024, with Microsoft's Azure starting to close the gap somewhat. In third place is Google Cloud.
 
-<img src="Market_Share.jpeg" alt="Market Share image for 2024 Q1" width="300" height="auto">
+<img src="Market_Share.jpeg" alt="Market Share image for 2024 Q1" width="400" height="auto">
 Picture from Statista [9]
 
 [1] https://aws.amazon.com/what-is-cloud-computing/
