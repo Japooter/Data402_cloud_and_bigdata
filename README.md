@@ -88,8 +88,11 @@ Where data is kept under check to make sure that there are no clashes in the pro
 - HTTP (HTTP server project, not a part of the Hadoop ecosystem), quote: "secure, efficient and extensible server"
 
 [1] https://nexocode.com/blog/posts/what-is-apache-spark/
+
 [2] https://www.sciencedirect.com/topics/computer-science/resilient-distributed-dataset
+
 [3] https://www.geeksforgeeks.org/introduction-to-apache-cassandra/
+
 [4] https://www.geeksforgeeks.org/what-is-apache-zookeeper/
 
 Feedback from presentation (covered Data Processing, Data Storage, Data Security and Data Monitoring Layers):
