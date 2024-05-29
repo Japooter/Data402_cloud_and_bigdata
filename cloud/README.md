@@ -40,10 +40,22 @@ A business can get many great benefits from the cloud, including but not limited
 As previously written, the cloud service chosen can be cheaper, so long as the requirements for it are met. A contract can have fees where the business might not expect, so it is always important to ensure these are checked over before finalising a cloud service. Also, a cloud service could be considerably more expensive if a private model is chosen for the business which, while definitely having great benefits, could result in severely large costs through purchase and maintenance. It is important to always make a wise choice in the cloud model chosen also for this reason. It could, sometimes easily, end up more expensive than on-premises infrastructure.
 
 ### Market Share
-Within a certain market, a business' market share is the amount of revenue made by that business when compared to the revenue made in the entire market (including this business and its competitors). In terms of the cloud computing market, Amazon is in the lead with Amazon Web Services as of quarter 1 2024, with Microsoft's Azure starting to close the gap somewhat. In third place is Google Cloud.
+Within a certain market, a business' market share is the amount of revenue made by that business when compared to the revenue made in the entire market (including this business and its competitors). In terms of the cloud computing market, Amazon is in the lead with Amazon Web Services (ASW) as of quarter 1 2024, with Microsoft's Azure starting to close the gap somewhat. In third place is Google Cloud.
 
 <img src="Market_Share.jpeg" alt="Market Share image for 2024 Q1" width="400" height="auto">
 Picture from Statista [9].
+
+ASW is popular due to their state as the "grandfather" of the cloud computing space. While they were definitely not the first, they were the first to make it on a scale that holds weight and reliability. Azure is popular due to the Microsoft ecosystem being connected to it, with services such as Outlook and Teams connected via a Microsoft Account. Google Cloud is also popular due to its open source features. All of which are in a way unique selling points for the three top spots.
+
+While setting up the cloud infrastructure does of course cost money in its own way (whether renting from a cloud provider or going private), the main bulk of cost comes from maintenance. Over time, setup costs will be made back, but you need to make sure that there is some form of upkeep. If public, server costs will have to be kept in mind as payment is made over time at regular intervals, but to maintain the best use of it privately (or in a hybrid model), the costs will go higher due to having people on stand-by that can manage it. Additionally, the servers will also produce costs in terms of energy. If you have a private cloud, the servers will need to be cooled to avoid overheating, and this will increase the bills of such a use of servers much more.
+
+### Data management via the cloud
+How does the cloud use and manage data? First, any storage of data must be done so under cloud storage rules, ensuring the data remains intact and secure. Unlike on-premises data storage, cloud data can also be shared and collaborated on much more easily and dynamically. Any data recovery in a public cloud is maintained by the provider, so there is a great ease on businesses in having to recover stuff that may be lost - the providers do their best to ensure that any potentially lost work is able to be recovered to the best possible state. All of this management is great to ensure that the ease of use is easier for those working with the data, and accessibility for things such as collaborative work is consequently almost fully stress free [10]. Depending on which service is being used for public clouds, data professionals will need to know various tools. For AWS, this could be ranging from Amazon's S3 for AWS (discussed very briefly in Big Data) to Amazon Redshift, a data warehouse service managed by Amazon to ensure that businesses can have efficient use of storing and processing their data quickly. Databricks is a software used to process data and analyse it, all built on top of Apache Spark, but unlike Spark it is cloud-based, so data analysis can be done anywhere so long as there is internet. There is so much more, but what is important to know is that the more of these tools/software that data professionals can work with, the better they will be able to handle the world of the cloud [11].
+
+### Cloud Migration Case Study: DigitalNZ
+Citizens of New Zealand are likely to have at some point used "DigitalNZ", a site currently run by the National Library of New Zealand and is a large collection of digital content all focused around the country. It became such a huge success that eventually the National Library ran into a problem: there was too much upkeep. Servers were beginning to fail and were too old for what was considered optimal at the time, so when there is over 200 content partners providing DigitalNZ with photos, videos and more, the worst thing that could happen is all of this being lost due to the inability to keep up with maintenance. The answer for DigitalNZ was simple, move to the cloud (this was helped by the New Zealand government giving cloud migration a strong recommendation).
+
+The process of migrating encapsulated 4 stages. The first was mainly research, understanding what the cloud migration process would entail and what providers are available, et cetera. The second stage involved ensuring everything was good for the move to AWS (which they chose in the end) and that they had solutions to potential security threats and the concept of the Virtual Private Cloud (VPC). The third stage was the big migration step, making sure everything was copied throughly to the cloud before the final stage of decommissioning the old hardware. Of course, anything that needed extra protection was archived; historical records, noteworthy images, and so on [12]. The sources provided in this README go into more detail on the topics covered, including this case study.
 
 
 #### Sources
@@ -64,5 +76,11 @@ Picture from Statista [9].
 [8] https://blog.deiser.com/en/differences-capex-and-opex
 
 [9] https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/
+
+[10] https://www.techtarget.com/searchstorage/definition/cloud-data-management
+
+[11] https://medium.com/@guilherme.augusto179/navigating-the-cloud-a-guide-for-data-professionals-who-want-to-impress-at-parties-6fc6d7d411fd
+
+[12] https://www.boost.co.nz/blog/2019/11/cloud-migration-case-study
 
 
